@@ -6,7 +6,8 @@ The observation space consists of 8 variables corresponding to the position and 
 After each episode, the rewards that each agent received (without discounting) are added, to get a score for each agent. This yields two (potentially different) scores. We then take the maximum of these two scores. This yields a single score for each episode.
 The problem is considered to be solved when the average of the scores over 100 consecutive episodes is larger than 0.5.
 
- 
+More info about the solution can be found [here](https://github.com/HatemSelim94/RL-MADDPG/blob/main/Report.md).
+
 #### Dependencies
 ##### Activate the environment 
 To set up your python environment to run the code in this repository, follow the instructions below.
